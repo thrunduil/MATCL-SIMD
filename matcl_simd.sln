@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "matcl-simd", "proj\matcl-simd\matcl-simd.vcxproj", "{18102545-1797-4A67-8D54-E64826B582C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AF177113-9AE9-4EF1-A8BA-BEFC44C31F83}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_simd_avx", "proj\test\test_simd\avx\test_simd_avx.vcxproj", "{959EAB1E-4906-4793-A041-11CB3A74E842}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_simd_avx2", "proj\test\test_simd\avx2\test_simd_avx2.vcxproj", "{EC474B29-40FF-46D7-BA0C-2EB6DCDC3E3D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_simd_fma", "proj\test\test_simd\fma\test_simd_fma.vcxproj", "{3C2C0793-E0B8-4CB6-B997-B65F1532FBAC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_simd_no_sse3", "proj\test\test_simd\no_sse3\test_simd_no_sse3.vcxproj", "{47AECD21-674F-4198-959A-14710F09E968}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_simd_no_sse41", "proj\test\test_simd\no_sse41\test_simd_no_sse41.vcxproj", "{24E92D49-1257-4995-96A5-7095E701D8C9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_simd_no_sse42", "proj\test\test_simd\no_sse42\test_simd_no_sse42.vcxproj", "{39938B9D-E03E-4FB0-BDF3-E8CEF140C0A1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_simd_values", "proj\test\test_simd\test_values\test_simd_values.vcxproj", "{FFBAC419-238F-4938-85FF-B8F8EFBC64DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18102545-1797-4A67-8D54-E64826B582C8}.Debug|x64.ActiveCfg = Debug|x64
+		{18102545-1797-4A67-8D54-E64826B582C8}.Debug|x64.Build.0 = Debug|x64
+		{18102545-1797-4A67-8D54-E64826B582C8}.Debug|x86.ActiveCfg = Debug|x64
+		{18102545-1797-4A67-8D54-E64826B582C8}.Debug|x86.Build.0 = Debug|x64
+		{18102545-1797-4A67-8D54-E64826B582C8}.Release|x64.ActiveCfg = Release|x64
+		{18102545-1797-4A67-8D54-E64826B582C8}.Release|x64.Build.0 = Release|x64
+		{18102545-1797-4A67-8D54-E64826B582C8}.Release|x86.ActiveCfg = Release|x64
+		{18102545-1797-4A67-8D54-E64826B582C8}.Release|x86.Build.0 = Release|x64
+		{959EAB1E-4906-4793-A041-11CB3A74E842}.Debug|x64.ActiveCfg = Debug|x64
+		{959EAB1E-4906-4793-A041-11CB3A74E842}.Debug|x64.Build.0 = Debug|x64
+		{959EAB1E-4906-4793-A041-11CB3A74E842}.Debug|x86.ActiveCfg = Debug|x64
+		{959EAB1E-4906-4793-A041-11CB3A74E842}.Release|x64.ActiveCfg = Release|x64
+		{959EAB1E-4906-4793-A041-11CB3A74E842}.Release|x64.Build.0 = Release|x64
+		{959EAB1E-4906-4793-A041-11CB3A74E842}.Release|x86.ActiveCfg = Release|x64
+		{EC474B29-40FF-46D7-BA0C-2EB6DCDC3E3D}.Debug|x64.ActiveCfg = Debug|x64
+		{EC474B29-40FF-46D7-BA0C-2EB6DCDC3E3D}.Debug|x64.Build.0 = Debug|x64
+		{EC474B29-40FF-46D7-BA0C-2EB6DCDC3E3D}.Debug|x86.ActiveCfg = Debug|x64
+		{EC474B29-40FF-46D7-BA0C-2EB6DCDC3E3D}.Release|x64.ActiveCfg = Release|x64
+		{EC474B29-40FF-46D7-BA0C-2EB6DCDC3E3D}.Release|x64.Build.0 = Release|x64
+		{EC474B29-40FF-46D7-BA0C-2EB6DCDC3E3D}.Release|x86.ActiveCfg = Release|x64
+		{3C2C0793-E0B8-4CB6-B997-B65F1532FBAC}.Debug|x64.ActiveCfg = Debug|x64
+		{3C2C0793-E0B8-4CB6-B997-B65F1532FBAC}.Debug|x64.Build.0 = Debug|x64
+		{3C2C0793-E0B8-4CB6-B997-B65F1532FBAC}.Debug|x86.ActiveCfg = Debug|x64
+		{3C2C0793-E0B8-4CB6-B997-B65F1532FBAC}.Release|x64.ActiveCfg = Release|x64
+		{3C2C0793-E0B8-4CB6-B997-B65F1532FBAC}.Release|x64.Build.0 = Release|x64
+		{3C2C0793-E0B8-4CB6-B997-B65F1532FBAC}.Release|x86.ActiveCfg = Release|x64
+		{47AECD21-674F-4198-959A-14710F09E968}.Debug|x64.ActiveCfg = Debug|x64
+		{47AECD21-674F-4198-959A-14710F09E968}.Debug|x64.Build.0 = Debug|x64
+		{47AECD21-674F-4198-959A-14710F09E968}.Debug|x86.ActiveCfg = Debug|x64
+		{47AECD21-674F-4198-959A-14710F09E968}.Release|x64.ActiveCfg = Release|x64
+		{47AECD21-674F-4198-959A-14710F09E968}.Release|x64.Build.0 = Release|x64
+		{47AECD21-674F-4198-959A-14710F09E968}.Release|x86.ActiveCfg = Release|x64
+		{24E92D49-1257-4995-96A5-7095E701D8C9}.Debug|x64.ActiveCfg = Debug|x64
+		{24E92D49-1257-4995-96A5-7095E701D8C9}.Debug|x64.Build.0 = Debug|x64
+		{24E92D49-1257-4995-96A5-7095E701D8C9}.Debug|x86.ActiveCfg = Debug|x64
+		{24E92D49-1257-4995-96A5-7095E701D8C9}.Release|x64.ActiveCfg = Release|x64
+		{24E92D49-1257-4995-96A5-7095E701D8C9}.Release|x64.Build.0 = Release|x64
+		{24E92D49-1257-4995-96A5-7095E701D8C9}.Release|x86.ActiveCfg = Release|x64
+		{39938B9D-E03E-4FB0-BDF3-E8CEF140C0A1}.Debug|x64.ActiveCfg = Debug|x64
+		{39938B9D-E03E-4FB0-BDF3-E8CEF140C0A1}.Debug|x64.Build.0 = Debug|x64
+		{39938B9D-E03E-4FB0-BDF3-E8CEF140C0A1}.Debug|x86.ActiveCfg = Debug|x64
+		{39938B9D-E03E-4FB0-BDF3-E8CEF140C0A1}.Release|x64.ActiveCfg = Release|x64
+		{39938B9D-E03E-4FB0-BDF3-E8CEF140C0A1}.Release|x64.Build.0 = Release|x64
+		{39938B9D-E03E-4FB0-BDF3-E8CEF140C0A1}.Release|x86.ActiveCfg = Release|x64
+		{FFBAC419-238F-4938-85FF-B8F8EFBC64DE}.Debug|x64.ActiveCfg = Debug|x64
+		{FFBAC419-238F-4938-85FF-B8F8EFBC64DE}.Debug|x64.Build.0 = Debug|x64
+		{FFBAC419-238F-4938-85FF-B8F8EFBC64DE}.Debug|x86.ActiveCfg = Debug|x64
+		{FFBAC419-238F-4938-85FF-B8F8EFBC64DE}.Release|x64.ActiveCfg = Release|x64
+		{FFBAC419-238F-4938-85FF-B8F8EFBC64DE}.Release|x64.Build.0 = Release|x64
+		{FFBAC419-238F-4938-85FF-B8F8EFBC64DE}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{959EAB1E-4906-4793-A041-11CB3A74E842} = {AF177113-9AE9-4EF1-A8BA-BEFC44C31F83}
+		{EC474B29-40FF-46D7-BA0C-2EB6DCDC3E3D} = {AF177113-9AE9-4EF1-A8BA-BEFC44C31F83}
+		{3C2C0793-E0B8-4CB6-B997-B65F1532FBAC} = {AF177113-9AE9-4EF1-A8BA-BEFC44C31F83}
+		{47AECD21-674F-4198-959A-14710F09E968} = {AF177113-9AE9-4EF1-A8BA-BEFC44C31F83}
+		{24E92D49-1257-4995-96A5-7095E701D8C9} = {AF177113-9AE9-4EF1-A8BA-BEFC44C31F83}
+		{39938B9D-E03E-4FB0-BDF3-E8CEF140C0A1} = {AF177113-9AE9-4EF1-A8BA-BEFC44C31F83}
+		{FFBAC419-238F-4938-85FF-B8F8EFBC64DE} = {AF177113-9AE9-4EF1-A8BA-BEFC44C31F83}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12608364-895A-4DB9-A507-D2C004A2793C}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

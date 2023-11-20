@@ -1,0 +1,4 @@
+.vs/*
+*.vcxproj.user
+proj/test/test_simd/avx/x64/*
+proj/test/test_simd/avx2/x64/*
